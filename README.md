@@ -3,7 +3,7 @@
 * Only support dark mode.
 
 ```css
-// Variables
+/* Variables */
 * {
    --scrollbar-bg: none;
    --card: rgb(26, 26, 26);
@@ -12,7 +12,7 @@
    --dialog-outline: 2px solid rgba(63, 63, 63, .3);
 }
 
-// Card or Button
+/* Card or Button */
 .css-3e4wjh, 
 .css-1pgrx25, 
 .css-aafiep, 
@@ -34,20 +34,21 @@
    background-color: var(--card);
 }
 
-// Dialog or Dropdown Menu
-.css-wdyvh4,.css-oc745q, .css-1c3hbyo {
+/* Dialog or Dropdown Menu */
+.css-wdyvh4,.css-oc745q, .css-1c3hbyo, .MuiDialog-paper {
    background-color: var(--dialog) !important;
    outline: var(--dialog-outline) !important;
    backdrop-filter: blur(7px);
 }
 
-// Scrollbar
+/* Scrollbar */
 .css-17rlh6j {
    background-color: transparent !important;
 }
 
-// Background
+/* Background */
 .base-container section, .css-l3ykv8 {
    background-color: var(--bg) !important;
 }
+
 ```
