@@ -1,6 +1,6 @@
 # clash-verge-rev-shadcn-theme
-Clash Verge-rev Shadcn Theme, Style, Skin by CSS Inject.
-*** Only support dark mode.
+* Clash Verge-rev Shadcn Theme, Style, Skin by CSS Inject.
+* Only support dark mode.
 
 ```css
 // Variables
