@@ -48,17 +48,16 @@ Copy the following CSS code into your Clash Verge Rev CSS Injection panel.
    Dark Mode Only
    ========================================= */
 
-/* --- Variables --- */
-:root {
+/* Variables */
+* {
    --scrollbar-bg: none;
    --card: rgb(26, 26, 26);
    --bg: rgb(19, 19, 19);
    --dialog: rgba(0, 0, 0, .7);
    --dialog-outline: 2px solid rgba(63, 63, 63, .3);
-   /* You can add more custom variables here */
 }
 
-/* --- Card & Button Components --- */
+/* Card or Button */
 .css-3e4wjh, 
 .css-1pgrx25, 
 .css-aafiep, 
@@ -78,29 +77,22 @@ Copy the following CSS code into your Clash Verge Rev CSS Injection panel.
 .css-6892g4,
 .css-zt326n {
    background-color: var(--card);
-   /* Optional: Add border for more Shadcn look */
-   /* border: 1px solid rgba(255,255,255,0.1); */
 }
 
-/* --- Dialog & Dropdown Menu --- */
-.css-wdyvh4,
-.css-oc745q, 
-.css-1c3hbyo, 
-.MuiDialog-paper {
+/* Dialog or Dropdown Menu */
+.css-wdyvh4,.css-oc745q, .css-1c3hbyo, .MuiDialog-paper, .css-r94ymm {
    background-color: var(--dialog) !important;
    outline: var(--dialog-outline) !important;
    backdrop-filter: blur(7px);
-   -webkit-backdrop-filter: blur(7px);
 }
 
-/* --- Scrollbar --- */
+/* Scrollbar */
 .css-17rlh6j {
    background-color: transparent !important;
 }
 
-/* --- Main Background --- */
-.base-container section, 
-.css-l3ykv8 {
+/* Background */
+.base-container section, .css-l3ykv8 {
    background-color: var(--bg) !important;
 }
 ```
